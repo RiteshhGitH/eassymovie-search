@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&Fira+Sans&family=Poppins&display=swap');
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #ffffff;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 400px;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 10px;
+    background: #ff4036;
+    padding: 10px 20px 10px 20px;
+    font-family: Arial;
+}
+/* .btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+    -webkit-border-radius: 3000px;
+    -moz-border-radius: 3000px;
+    border-radius: 3000pxpx;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #ff4036;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  } */
+  
+  .close-modal:hover {
+    background: #fc655d;
+    text-decoration: none;
+  }
+  .contain {
+    padding: 10px;
+     text-align: center;
+    
+     
+ }
+ .form {
+     display: flex;
+     padding: 10px;
+     flex-direction: column;
+     
+ }
+ .formInput{
+     border-radius: 5px;
+     border-color: #e5e5e5;
+     border-style: solid;
+     border-width: 0.5px;
+     margin-bottom: 10px;
+     padding: 10px;
+ }
+
+.formSubmit {
+    border-radius: 10px;
+    color: #03045e;
+    padding: 8px;
+    border-style: solid;
+    border-color: #03045e;
+    width: 75px;
+    align-self: flex-end;
+}
+.formSubmit:hover {
+   
+    color: #212265;
+   
+}
+.move{
+    text-align: left;
+    color:#7f7f7f;
+    font-size: 85%;
+}
+.container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  
+}
+.otpimg {
+   width: 120px;
+   padding: 5px;
+}
+
+.formSelect{
+   width: 380px;
+   border-radius: 5px;
+   border-color: #e5e5e5;
+   border-style: solid;
+   border-width: 0.5px;
+   margin-bottom: 10px;
+   padding: 10px;
+}
